@@ -113,6 +113,12 @@
         },
 
 
+
+
+
+
+        
+
         stickyAdjust: function (e) {
             // Sticky Top Adjust..,
             $('.rbt-sticky-top-adjust').css({
