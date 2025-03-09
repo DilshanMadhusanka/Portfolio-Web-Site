@@ -116,7 +116,6 @@
 
 
 
-
         
 
         stickyAdjust: function (e) {
