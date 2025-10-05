@@ -14604,3 +14604,25 @@ body.white-version {
   color: var(--color-white) !important; }
 
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+
+
+
+#projectTabs {
+    display: flex !important;      /* force flex layout */
+    flex-wrap: nowrap;             /* prevent wrapping */
+}
+
+#projectTabs .nav-item {
+    flex: 1;                       /* all tabs take equal space */
+    text-align: center;            /* center the text */
+}
+
+#projectTabs .nav-link {
+    white-space: nowrap;           /* prevent text from breaking */
+    font-size: 17px;               /* shrink font to fit */
+    overflow: hidden;              /* hide overflow if needed */
+    text-overflow: ellipsis;       /* add ... if text is too long */
+}
+
